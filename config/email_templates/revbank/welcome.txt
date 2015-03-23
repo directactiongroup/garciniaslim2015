@@ -1,0 +1,83 @@
+<?
+// Mail settings
+$subject = 'Your order of Reveriderm';
+$senderEmail = 'support@reveriderm.com';
+$senderName = 'Reveriderm';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Reveriderm</title>
+</head>
+<body bgcolor="#fff" vlink="#62a9e3" style="-webkit-text-size-adjust: none;" topmargin="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff" align="center">
+<tbody>
+<tr>
+<td align="center"><!-- BEGIN Header -->
+<table width="660" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td colspan="3">
+<img src="../../../revbank/images/emailHeader.jpg" alt="Reveriderm" width="660" height="150" />
+</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td>
+<td width="640" align="left">
+<table cellpadding="10">
+<tr>
+<td>
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; line-height:24px;"><span style="float: left; color: #af506e; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-weight:bold;">C</span>ongratulations on your recent purchase of <span style="font-weight:bold; color:#af506e;">Reveriderm</span>, the clinically proven and dermatologist approved solution to reduce wrinkles and remove fine lines.</p>
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:24px;">We take great pride in the quality of our products. If for any reason you do not find this product is right for you we will gladly give you a full refund, no questions asked. If you have any questions at all, please contact customer service at 1-800-207-5030. </p>
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:24px; margin-bottom:100px;"><span style="font-weight:bold; color: #af506e;">&mdash; Reveriderm</span></p>
+</td>
+</tr>
+</table>
+</td>
+<td width="10">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom">
+<table width="660" cellspacing="4" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px;">
+<tr>
+<td align="center" bgcolor="#d1849c" style="border:solid 1px #af506e;">
+<a style="color:#fff; font-weight:bold; text-decoration:none; width:100%; display:block; padding:8px 0;" href="http://reveriderm.com/">Visit Us Online
+</a></td>
+<td align="center" bgcolor="#d1849c" style="border:solid 1px #af506e;">
+<a style="color:#fff; font-weight:bold; text-decoration:none; width:100%; display:block; padding:8px 0;" href="http://reveriderm.com/tc.html">Terms &amp; Conditions
+</a></td>
+<td align="center" bgcolor="#d1849c" style="border:solid 1px #af506e;">
+<a style="color:#fff; font-weight:bold; text-decoration:none; width:100%; display:block; padding:8px 0;" href="http://reveriderm.com/pp.html">Privacy Policy</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="10" align="center" width="660">
+<tr>
+<td>
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666;">
+Please do not reply to this email. We cannot accept electronic replies to this email address.</p>
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666;">
+To contact the sender, write to: <br /> 
+Reveriderm
+<br />
+3905 State St.  Unit #7-351<br />
+Santa Barbara, CA 93105</p>
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666;">&copy; <? echo date('Y'); ?> Reveriderm. All rights reserved.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
