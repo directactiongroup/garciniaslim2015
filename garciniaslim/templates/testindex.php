@@ -8,7 +8,7 @@
 		<meta name="author" content="">
 		<title>test</title>
 		<script type="text/javascript" src="../js/popups.js"></script>
-		<?php include 'sitewide/includes.php';?>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/style.css" rel="stylesheet">
 	</head>
   	<body>

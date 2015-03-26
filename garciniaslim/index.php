@@ -126,15 +126,14 @@ if ($signup == 'y') {
     	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-		<div id="main">
 			<?php include 'templates/sitewide/header.php'; ?>
 			<?php include 'templates/index/content.php'; ?>
-			<div id="orderForm">
+			<div id="orderForm" class="col-xs-12 col-sm-12 col-md-11">
 				<a name="order-now" id="order-now"></a>
 				<form action="index.php#order" method="post" >
 					<input type="hidden" name="signup" value="y" />
 						<? echo ($frmMsg != '') ? '<div class="error">'.$frmMsg.'</div>' : ''; ?>
-						<div class="col-md-6">
+						<div class="col-xs-6 col-sm-6 col-md-6">
 							<label>First Name:</label>
 							<input name="name_first" type="text" class="field" id="name_first" value="<? echo $name_first; ?>" />
 							<div class="clearfix"></div>
@@ -159,7 +158,7 @@ if ($signup == 'y') {
 							<input name="phone" type="text" class="field" id="phone" value="<? echo $phone; ?>" />
 							<div class="clearfix"></div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-xs-6 col-sm-6 col-md-6">
 							<label>Last Name:</label>
 							<input name="name_last" type="text" class="field" id="name_last" value="<? echo $name_last; ?>" />
 							<div class="clearfix"></div>
