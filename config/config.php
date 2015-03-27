@@ -7,10 +7,10 @@
 ##########################
 
 // Database credentials
-$databaseHost = 'dadb.directactiongroup.com';
+$databaseHost = 'da-db-master.cxfiey3zymqf.us-west-1.rds.amazonaws.com';
 $databaseName = 'dagroup';
-$databaseUser = 'daDBu53r!';
-$databasePass = '@ct!0n!!Db805';
+$databaseUser = 'dagDBmaster';
+$databasePass = 'Action805!';
 
 // Crypt salt
 $saltStr = 'DAAct!0n805!!'; 

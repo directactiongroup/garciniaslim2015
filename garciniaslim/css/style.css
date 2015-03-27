@@ -428,6 +428,7 @@ input[type=submit], .button {
 }
 #faq {
 	background:url(../images/tile.jpg);
+	padding-bottom:60px;
 }
 #faq h1 {
 	font-weight:700;
@@ -436,7 +437,6 @@ input[type=submit], .button {
 #faq h2 {
 	font-weight:700;
 	color:#2e7b4f;
-	margin-bottom:0;
 	font-size:28px;
 }
 .green {
