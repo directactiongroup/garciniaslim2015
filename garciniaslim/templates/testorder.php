@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title><? echo $adminSiteName; ?></title>
 <style type="text/css">
-<!--
 body {
 	margin-left: 0px;
 	margin-top: 0px;
@@ -15,6 +14,7 @@ body {
 	background-repeat: repeat-x;
 }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" language="JavaScript">
    function popUp(URL) {
 	  day = new Date();
@@ -83,6 +83,16 @@ function toggleProduct(product_id) {
 	
 }
 </script>
+<script type="text/javascript">
+$(function () {
+	 $('.image_products').click(function() {
+		 $('.trial_blurb').slideUp();
+	 });
+	 $('#product1').click(function() {
+		 $('.trial_blurb').slideDown();
+	 });
+});
+</script>
 <link href="../main.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 .form1 {font-family: Arial, Helvetica, sans-serif;
@@ -107,10 +117,12 @@ function toggleProduct(product_id) {
 	<a name="order"></a>
 	<div class="pre-container_order">
 		<div class="products">
-			<img id="product2" src="../images/product2_off.jpg" onMouseOver="roll('product2','product2_on');"  onMouseOut="roll('product2','product2_off');" onClick="toggleProduct('<? echo $arrProductsKeys[1]; ?>');" class="image_products" /><br />
-			<img id="product3" src="../images/product3_off.jpg" onMouseOver="roll('product3','product3_on');"  onMouseOut="roll('product3','product3_off');" onClick="toggleProduct('<? echo $arrProductsKeys[2]; ?>');" class="image_products" /><br />
-			<img id="product4" src="../images/product4_off.jpg" onMouseOver="roll('product4','product4_on');"  onMouseOut="roll('product4','product4_off');" onClick="toggleProduct('<? echo $arrProductsKeys[3]; ?>');" class="image_products" /><br />
-			<img id="product1" src="../images/product1_off.jpg" onMouseOver="roll('product1','product1_on');"  onMouseOut="roll('product1','product1_off');" onClick="toggleProduct('<? echo $arrProductsKeys[0]; ?>');" class="image_products" />
+        	<div>
+                <img id="product1" src="../images/product1_off.jpg" onMouseOver="roll('product1','product1_on');"  onMouseOut="roll('product1','product1_off');" onClick="toggleProduct('<? echo $arrProductsKeys[0]; ?>');" class="image_products" /><br />
+                <img id="product2" src="../images/product2_off.jpg" onMouseOver="roll('product2','product2_on');"  onMouseOut="roll('product2','product2_off');" onClick="toggleProduct('<? echo $arrProductsKeys[1]; ?>');" class="image_products" /><br />
+                <img id="product3" src="../images/product3_off.jpg" onMouseOver="roll('product3','product3_on');"  onMouseOut="roll('product3','product3_off');" onClick="toggleProduct('<? echo $arrProductsKeys[2]; ?>');" class="image_products" /><br />
+                <img id="product4" src="../images/product4_off.jpg" onMouseOver="roll('product4','product4_on');"  onMouseOut="roll('product4','product4_off');" onClick="toggleProduct('<? echo $arrProductsKeys[3]; ?>');" class="image_products" />
+            </div>
 			<div class="trial_blurb triangle-border right">We take great pride in the quality of our products.  If for any reason you do not find this product is right for you we will gladly give you a full refund, no questions asked. You have nothing to lose. By placing your Trial order you will be enrolled in our refill membership program. This program will charge $59.95 for your trial of Ultra Garcinia Slim on the 14th day and ship a full-size bottle of Ultra Garcinia Slim for $59.95 + $9.95 S/H every 30 days thereafter until you cancel. You can cancel or modify your membership anytime by calling 800-260-7760. If you are not satisfied with your trial product, you must call (800)-260-7760 by day 14 to cancel your trial, or you will be charged $59.95 + $9.95 S/H.</div>
      		<div class="layout_cell" style="margin-left: 30px; margin-top:20px;"><img src="../images/usps_logo.png" class="image_noborders" /></div>
           	<div class="layout_cell" style="margin-left: 60px; margin-top:20px;">
@@ -260,7 +272,7 @@ function toggleProduct(product_id) {
 					</td>
       			</tr>
       			<tr>
-        			<td align="left">
+        			<td align="center">
 						<input type="image" src="../images/buy_now.png"  width="210" height="50" />
 					</td>
           		</tr>
