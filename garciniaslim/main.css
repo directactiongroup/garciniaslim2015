@@ -64,7 +64,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	background: url(images/order.jpg) no-repeat;
-	height: 1300px;
+	height: 1051px;
 }
 .pre-container_receipt {
 	width: 1087px;
@@ -193,12 +193,12 @@
 
 .trial_blurb {
 	width: 550px;
-	margin-left: 100px;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #000000;
 	line-height: 16px;
 	margin-top:16px;
+	left:87px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#fff;
 }
 
 .special_button_faq {
@@ -264,4 +264,56 @@
 }
 .brown {
 	color:#774200;
+}
+.triangle-border {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 0 0;
+	border: 5px solid #5a8f00;
+	color: #333;
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.triangle-border.right {
+	margin-right: 30px;
+}
+.triangle-border.right:before {
+	top: 66px;
+	bottom: auto;
+	left: auto;
+	right: -30px;
+	border-width: 15px 0 15px 30px;
+	border-color: transparent #5a8f00;
+}
+.triangle-border:before {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 40px;
+	border-width: 20px 20px 0;
+	border-style: solid;
+	border-color: #5a8f00 transparent;
+	display: block;
+	width: 0;
+}
+.triangle-border.right:after {
+	top: 72px;
+	bottom: auto;
+	left: auto;
+	right: -21px;
+	border-width: 9px 0 9px 21px;
+	border-color: transparent #fff;
+}
+.triangle-border:after {
+	content: "";
+	position: absolute;
+	bottom: -13px;
+	left: 47px;
+	border-width: 13px 13px 0;
+	border-style: solid;
+	border-color: #fff transparent;
+	display: block;
+	width: 0;
 }
