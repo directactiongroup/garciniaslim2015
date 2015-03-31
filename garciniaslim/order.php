@@ -272,8 +272,8 @@ $(function () {
             <img id="product4" src="images/product4_off.jpg" onMouseOver="roll('product4','product4_on');"  onMouseOut="roll('product4','product4_off');" onClick="toggleProduct('<? echo $arrProductsKeys[3]; ?>');" class="image_products" />
         </div>
      	<div class="trial_blurb triangle-border right">We take great pride in the quality of our products.  If for any reason you do not find this product is right for you we will gladly give you a full refund, no questions asked. You have nothing to lose. By placing your Trial order you will be enrolled in our refill membership program. This program will charge $59.95 for your trial of Ultra Garcinia Slim on the 14th day and ship a full-size bottle of Ultra Garcinia Slim for $59.95 + $9.95 S/H every 30 days thereafter until you cancel. You can cancel or modify your membership anytime by calling 800-260-7760. If you are not satisfied with your trial product, you must call (800)-260-7760 by day 14 to cancel your trial, or you will be charged $59.95 + $9.95 S/H.</div>
-     	<div class="layout_cell" style="margin-top: 30px; margin-left: 30px;"><img src="images/usps_logo.png" class="image_noborders" /></div>
-          <div class="layout_cell" style="margin-top: 30px; margin-left: 60px;">
+     	<div class="layout_cell" style="margin-top: 10px; margin-left: 30px;"><img src="images/usps_logo.png" class="image_noborders" /></div>
+          <div class="layout_cell" style="margin-top: 10px; margin-left: 60px;">
           	<div class="layout_cell" style="width: 140px; text-align: right"><font class="text_summary"><strong>Order Summary:</strong></font></div>
                <div class="layout_row"><img src="images/summary_divider.png" class="image_noborders" /></div>
                <div class="layout_cell" style="width: 140px; text-align: right"><font class="text_summary">Package:</font></div>

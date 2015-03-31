@@ -316,3 +316,6 @@
   display: block;
   width: 0;
 }
+.order img {
+	margin:10px 0;
+}
