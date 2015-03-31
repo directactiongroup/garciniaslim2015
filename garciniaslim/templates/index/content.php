@@ -1,11 +1,6 @@
 <!-- home pre-form content-->
 <div id="headline">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-8 col-md-offset-4">
-			</div>
-		</div>
-	</div>
+	
 </div>
 <div id="order-container">
 	<div class="container">

@@ -557,7 +557,7 @@ label {
 }
 input[type=submit] {
 	margin:20px auto 0 auto;
-	font-size:24px;
+	font-size:20px;
 	width:70%;
 }
 #about-container h1 {
@@ -838,7 +838,6 @@ input[type=submit] {
 	width:55%;
 }
 #about-container {
-	background:url(../images/aboutBackground.jpg) no-repeat top #a8bed5;
 	padding-bottom:0;
 }
 #about-container #bullets {
@@ -994,6 +993,7 @@ input[type=submit] {
 #ribbon h1 {
 	font-size:30px;
 	padding:0 0 0 40px;
+	line-height:40px;
 }
 #ribbon h2 {
 	display:none;
@@ -1003,7 +1003,7 @@ label {
 }
 input[type=submit] {
 	margin:24px auto 0 auto;
-	font-size:34px;
+	font-size:30px;
 	width:65%;
 }
 #order-container .row {

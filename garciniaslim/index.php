@@ -135,13 +135,13 @@ if ($signup == 'y') {
 						<? echo ($frmMsg != '') ? '<div class="error">'.$frmMsg.'</div>' : ''; ?>
 						<div class="col-xs-6 col-sm-6 col-md-6">
 							<label>First Name:</label>
-							<input name="name_first" type="text" class="field" id="name_first" value="<? echo $name_first; ?>" />
+							<input name="name_first" type="text" class="field" id="name_first" tabindex="1" value="<? echo $name_first; ?>" />
 							<div class="clearfix"></div>
 							<label>Address:</label>
-							<input name="address" type="text" class="field" id="address" value="<? echo $address; ?>" />	
+							<input name="address" type="text" class="field" id="address" tabindex="3" value="<? echo $address; ?>" />	
 							<div class="clearfix"></div>
 							<label>State:</label>         
-							<select name="state" id="state" class="field">
+							<select name="state" id="state" tabindex="5" class="field">
 								<option value="">- Select -</option>
 								<?
 								foreach ($regionArray as $key => $val) {
@@ -155,21 +155,21 @@ if ($signup == 'y') {
 							</select>
 							<div class="clearfix"></div>
 							<label>Phone:</label>
-							<input name="phone" type="text" class="field" id="phone" value="<? echo $phone; ?>" />
+							<input name="phone" type="text" class="field" id="phone" tabindex="7" value="<? echo $phone; ?>" />
 							<div class="clearfix"></div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-6">
 							<label>Last Name:</label>
-							<input name="name_last" type="text" class="field" id="name_last" value="<? echo $name_last; ?>" />
+							<input name="name_last" type="text" class="field" id="name_last" tabindex="2" value="<? echo $name_last; ?>" />
 							<div class="clearfix"></div>
 							<label>City:</label>
-							<input name="city" type="text" class="field" id="city" value="<? echo $city; ?>" />
+							<input name="city" type="text" class="field" id="city" tabindex="4" value="<? echo $city; ?>" />
 							<div class="clearfix"></div>
 							<label>Zip:</label>
-							<input name="zip" type="text" class="field" id="zip" value="<? echo $zip; ?>" />
+							<input name="zip" type="text" class="field" id="zip" tabindex="6" value="<? echo $zip; ?>" />
 							<div class="clearfix"></div>
 							<label>Email:</label>
-							<input name="email" type="text" class="field" id="email" value="<? echo $email; ?>" />
+							<input name="email" type="text" class="field" id="email" tabindex="8" value="<? echo $email; ?>" />
 							<div class="clearfix"></div>
 						</div>
 						<?php

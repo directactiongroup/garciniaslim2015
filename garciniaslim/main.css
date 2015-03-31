@@ -192,13 +192,12 @@
 }
 
 .trial_blurb {
-	width: 550px;
+	width: 640px;
 	margin-left: 100px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #000000;
 	line-height: 16px;
-	margin-top:16px;
 }
 
 .special_button_faq {
@@ -266,7 +265,7 @@
 	color:#774200;
 }
 .triangle-border.right {
-  margin-left:85px;
+  margin-left:0px;
 }
 .triangle-border {
   position: relative;
@@ -280,7 +279,7 @@
   border-radius: 10px;
 }
 .triangle-border.right:before {
-  top: 65px;
+  top: 90px;
   bottom: auto;
   left: auto;
   right: -30px;
@@ -299,7 +298,7 @@
   width: 0;
 }
 .triangle-border.right:after {
-  top: 71px;
+  top: 96px;
   bottom: auto;
   left: auto;
   right: -21px;
